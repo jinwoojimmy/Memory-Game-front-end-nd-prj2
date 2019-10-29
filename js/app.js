@@ -129,7 +129,7 @@ document.body.querySelector('.deck').addEventListener('click', function(e) {
      processCard(e.target);
      if (matchCount == 8) {
        // game over ; // TODO: open pop up
-       alert('Game Over!');
+       displayModal();
      }
    }
  });
